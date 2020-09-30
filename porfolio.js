@@ -7,13 +7,15 @@
   
 
     window.onscroll = function() {
+       
+        
         if(window.scrollY > 500) {
             box2.classList.add("box-active")
             
            
         } else {
             box2.classList.remove("box-active")
-          
+           
         }
     }
     email.addEventListener('mouseover', () => {
