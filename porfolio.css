@@ -20,6 +20,20 @@
         height: 100%;
         
     }
+    @media (max-width: 40.75em) {
+        nav {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    @media (max-width: 40.75em) {
+        .nav {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
    ul  {
         justify-content: space-around;
         align-items: center;
@@ -60,9 +74,10 @@
         flex-direction: column;
         width: 100%;
         height: 100vh;
-       
+        
         
     }
+    
     .box1, .box2 {
         background-color: 	rgb(38, 38, 38);
     }
@@ -75,6 +90,14 @@
         height: 100vh;
         transition: 1s;
     }
+    @media (max-width: 40.75em) {
+        .box2 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
     .box3 {
         justify-content: center;
         align-items: center;
@@ -85,7 +108,16 @@
         background-image: linear-gradient(0deg,	rgb(51, 51, 51),rgb(0, 0, 0));
      
     }
-   
+    @media (max-width: 40.75em) {
+        .box3 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            
+            width: 100%;
+            height: 90vh;
+        }
+    }
     .box-active {
         background-color: gray;
         transition: 1s;
@@ -145,11 +177,23 @@
         font-size: 5rem;
         color: cornsilk;
     }
+    @media (max-width: 40.75em) {
+        h1 {
+            padding-top: 1rem;
+            font-size: 2rem;
+        }
+    }
     h3 {
         font-size: 2rem;
         color: darkgray;
         padding-top: 2rem;
         padding-bottom: 5rem;
+    }
+    @media (max-width: 40.75em) {
+        h3 {
+            padding-bottom: 2rem;
+            font-size: .7rem;
+        }
     }
     .tags {
         justify-content: space-around;
@@ -160,9 +204,27 @@
         transition: 1s;
         transform: translateY(0);
     }
+    @media (max-width: 40.75em) {
+        .tags {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            transition: 1s;
+            transform: translateY(0);
+            padding: 20px;
+        }
+    }
     .email, .instagram, .github, .facebook {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         transition: .5s;
         transform: translateY(0);
+        color: white;
+        font-size: 2rem;
+        padding: 20px;
     }
       .email-active {
         transition: .5s;
