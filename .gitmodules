@@ -1,0 +1,3 @@
+[submodule "star"]
+	path = star
+	url = https://github.com/skylarbeese/StarWarsApi.git
